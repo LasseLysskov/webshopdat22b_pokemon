@@ -6,5 +6,5 @@ CREATE TABLE webshopdat22b.Products (
                                             'price' DECIMAL(13,2) NULL,
                                             PRIMARY KEY ('id'));
 
-INSTER INTO `webshopdat22b`.`Products` (`name`, `price`) VALUES ('Tuborg', '25');
-INSTER INTO `webshopdat22b`.`Products` (`name`, `price`) VALUES ('Carlsberg', '25');
+INSERT INTO `webshopdat22b`.`Products` (`name`, `price`) VALUES ('Tuborg', '25');
+INSERT INTO `webshopdat22b`.`Products` (`name`, `price`) VALUES ('Carlsberg', '25');
