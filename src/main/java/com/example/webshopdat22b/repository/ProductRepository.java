@@ -137,7 +137,7 @@ public class ProductRepository {
             //set parameters
             preparedStatement.setInt(1, id);
             //execute statement
-            preparedStatement.executeQuery();
+            preparedStatement.executeUpdate();
         }
         catch(SQLException e)
         {

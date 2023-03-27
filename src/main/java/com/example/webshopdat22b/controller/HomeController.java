@@ -70,7 +70,7 @@ public class HomeController {
         return "redirect:/";
     }
 
-    @PostMapping("/delete/{id}")
+    @GetMapping("/delete/{id}")
     public String deleteProduct(@PathVariable("id") int deleteId) {
         productRepository.deleteProduct(deleteId);
         return "redirect:/";
